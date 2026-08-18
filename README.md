@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔥 TESLA Candles — Electricity, But Make It Cozy
 
-## Getting Started
+> *Tesla reimagined as a luxury artisan candle company.*
+> **Premium hand-poured candles charged with ambiance.**
 
-First, run the development server:
+## 🎯 The Concept
+
+What if Tesla — the world's most iconic electric brand — was reimagined as a luxury candle house? We took the same obsessive engineering and applied it to something Tesla never made: candles that make you never want to leave home.
+
+## ✨ Highlights
+
+- 🌟 **Immersive single-page landing** — 9 beautifully designed sections
+- 📱 **Fully responsive** — Stunning on mobile, tablet, and desktop
+- 🎨 **Warm luxury aesthetic** — Amber/gold palette, glass morphism, candle animations
+- 💡 **Clever Tesla-themed products** — Cyberpunk Noir, Autopilot, Powerwall, and more
+- ⚡ **Conversion-focused** — Strategic CTAs, pricing tiers, and social proof
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 16 (App Router, Static Export)
+- **Styling:** Tailwind CSS 4
+- **Language:** TypeScript
+- **Icons:** Lucide React
+- **Fonts:** Inter + Cormorant Garamond
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/yourusername/tesla-candles.git
+cd tesla-candles
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+tesla-candles/
+├── src/
+│   ├── app/
+│   │   ├── globals.css       # Custom theme & animations
+│   │   ├── layout.tsx        # Root layout
+│   │   └── page.tsx          # Main page
+│   └── components/
+│       ├── Navbar.tsx         # Sticky nav with glass effect
+│       ├── Hero.tsx           # Hero with candle glow effects
+│       ├── OurStory.tsx       # Brand story section
+│       ├── Features.tsx       # 6 engineering features
+│       ├── Collection.tsx     # 6 Tesla-themed candles
+│       ├── Testimonials.tsx   # Customer reviews
+│       ├── Subscribe.tsx      # 3 subscription tiers
+│       ├── CTA.tsx            # Final conversion section
+│       └── Footer.tsx         # Full footer
+├── public/
+│   └── favicon.svg            # Flame favicon
+├── next.config.ts
+├── package.json
+└── tailwind.config.ts
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 License
 
-## Learn More
+This is a fictional brand created for the Front-End Development Internship Assignment. Not affiliated with Tesla, Inc.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Made with 🔥 in Portland, OR*
